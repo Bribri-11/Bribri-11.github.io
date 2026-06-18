@@ -99,5 +99,88 @@
             external page on the web (_blank opens in new tab)</a>
 
 
+body {
+    background-color: pink;
+    text-align: center;
+    font-family: "Georgia", serif;
+}
 
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 48px;
+    color: purple;
+    text-shadow: 2px 2px 4px pink;
+}
 
+nav li {
+    display: inline-block;
+    background-color: purple;
+    padding: 20px;
+    margin: 10px;
+    color: pink;
+}
+
+nav li a {
+    color: pink;
+    text-decoration: none;
+    font-family: "Georgia", serif;
+    font-size: 18px;
+}
+
+h2 {
+    font-family: "Georgia", serif;
+    color: purple;
+    font-size: 32px;
+}
+
+p {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    color: #333;
+}
+
+ul {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    color: #333;
+    list-style-position: inside;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+.picture-box {
+    background-color: white;
+    border: 4px solid purple;
+    padding: 30px;
+    margin: 20px auto;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+    font-family: "Georgia", serif;
+    font-size: 16px;
+}
+
+.picture-box img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    font-family: "Georgia", serif;
+    color: purple;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: pink;
+}
