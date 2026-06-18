@@ -101,11 +101,7 @@ nav {
     </style>
 <head>
     <link rel="stylesheet" href="style.css">  
-    <style>
-      table, th, td {
-  border:1px solid black;
-}
-body {
+    <style> {
             background-color: lightyellow;
         }
     </style>
