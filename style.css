@@ -1,12 +1,58 @@
-body {
-  background-color: pink;
-}
-nav li {
-  display: inline-block;
-  background-color: purple;
-  padding: 20px;
-  margin: 10px;
-  color: Lightblue;
-  background-color: purple;
-  text-decoration: none;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My e-Portfolio</title>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        nav li {
+            display: inline-block;
+            background-color: purple;
+            padding: 20px;
+            margin: 10px;
+            color: lightblue;
+        }
+
+        nav li a {
+            color: lightblue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My e-Portfolio</h1>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <h2>About Me</h2>
+    <p>Hi, I'm a student. This is my e-portfolio for class.</p>
+
+    <h2>My Projects</h2>
+    <p><strong>Project 1:</strong> Personal website</p>
+    <p><strong>Project 2:</strong> Weather app</p>
+    <p><strong>Project 3:</strong> Portfolio redesign</p>
+
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>Email: myemail@example.com</p>
+
+</body>
+</html>
